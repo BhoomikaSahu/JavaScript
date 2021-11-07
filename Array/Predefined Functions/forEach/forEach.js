@@ -8,9 +8,8 @@ function printArray(element){
     // return element; -> It will not work for forEach method
 }
 
-
-
-let returnForEach = array.forEach(printArray);
+let returnForEach = array.array.forEach(printArray);
 console.log(returnForEach);                         // we can't return values that's why it is printing undefined
 
 // console.log(array.forEach(printArray))
+
