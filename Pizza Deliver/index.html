@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Deliver</title>
+</head>
+<body>
+    <h1>Welcom to Pizza Deliver!</h1>
+    <h3>Which Size You Want To Order?</h3>
+    <table>
+        <tr>
+            <th>Size</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Small</td>
+            <td>100/-</td>
+        </tr>
+        <tr>
+            <td>Medium</td>
+            <td>150/-</td>
+        </tr>
+        <tr>
+            <td>Large</td>
+            <td>200/-</td>
+        </tr>
+    </table>
+    <button onclick = "pizzaSize()">Choose</button>
+    <h3>Want Extra Cheese?</h3>
+    <table>
+        <tr>
+            <th>Cheese</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>For Small Size</td>
+            <td>10/-</td>
+        </tr>
+        <tr>
+            <td>For Medium Size</td>
+            <td>15/-</td>
+        </tr>
+        <tr>
+            <td>For Large Size</td>
+            <td>20/-</td>
+        </tr>
+    </table>
+    <button onclick = "extraCheese()">Click here</button>
+
+    <h2>Your Total Bill is here!</h2>
+    <button onclick = "totalBill()">Click</button>
+    <p id="demo"></p>
+
+    <script src="index.js"></script>
+</body>
+</html>
