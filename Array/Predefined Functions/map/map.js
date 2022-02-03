@@ -7,8 +7,10 @@
 const array = [11,22,33,44,55];
 
 function printArray(element){
-    console.log(element);        
-    return element;              // It will return each values 
+    if(element%2 == 0)
+        return element;
+    // console.log(element);        
+    // return element;              // It will return each values 
 }
 
 let returnMap = array.map(printArray);

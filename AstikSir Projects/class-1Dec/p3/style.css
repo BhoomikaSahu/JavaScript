@@ -1,0 +1,13 @@
+.form-control{
+        margin: auto;
+        width: fit-content;
+}
+
+input, button{
+    padding: 10px 25px;
+}
+
+ul li{
+    font-size: 18px;
+
+}
