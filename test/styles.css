@@ -1,0 +1,23 @@
+.container {
+    width: 100px;
+    height: 200px;
+  }
+
+  .tab {
+    display: inline-block;
+    width: 80px;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 4px;
+    cursor: pointer;
+    background-color: darkgray;
+  }
+
+  .selected-tab {
+    background-color: lightgray;
+    font-weight: bold;
+  }
+
+  .deselected-tab {
+    background-color: darkgray;
+  }
